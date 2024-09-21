@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.homepage-wrapper{  
+    display: flex;
+    align-items: center;
+}
+.homepage-wrapper h1{
+    font-size: 100px;
+}
+.homepage-wrapper .content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.content button{
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.header-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    font-weight: 800;
+}
+.header-component p {
+    font-size: 25px;
+}
+.header-component h2{
+    font-size: 60px;
+}
+.total-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.choose-number{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.choose-number .boxes{
+    display: flex;
+    gap: 30px;
+}
+.choose-number .box{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+}
+.black-box{
+    background-color: black;
+    color: white;
+}
+.roll{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.roll img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation: roll 1s   linear ;
+    /* transform: rotateZ(0deg); */
+}
+@keyframes roll {
+    0%{
+        transform: rotateZ(0deg)
+    }
+    100%{
+        transform: rotateZ(360deg)
+    }
+}
+.reset-button{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.reset-button button{
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+
+.rules-button{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.rules-button button{
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+.rules{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: rgba(245, 245, 220, 0.641);
+    width: max-content;
+    padding: 25px 40px;
+    border-radius: 5px;
+}
+.opacity{
+    opacity: 0;
+}
