@@ -71,7 +71,7 @@ function Play() {
       </div>
 
       <div className="roll" onClick={rollDice}>
-        <img src={`../src/assets/${diceValue}.png`} alt="" />
+        <img src={`/assets/${diceValue}.png`} alt="" />
       </div>
       <div className="reset-button">
         <button onClick={() => setTotal(0)}>Reset Score</button>

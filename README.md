@@ -15,7 +15,7 @@
 - React JS
 - React Router DOM
 
-🌐 Access the live version here ➡️ [Dice Game](#)
+🌐 Access the live version here ➡️ [Dice Game](https://dice-game-nhui.onrender.com/)
 
 ---
 
